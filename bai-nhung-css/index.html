@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nhúng CSS vào HTML</title>
+
+    <!-- Internal CSS -->
+    <style>
+        .internal {
+            color: blue;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 style="color: red;">Phần 1 - Inline CSS</h1>
+    <p style="color: green;">
+        Đây là đoạn văn được thay đổi màu bằng Inline CSS.
+    </p>
+
+    <h1 class="internal">Phần 2 - Internal CSS</h1>
+    <p class="internal">
+        Đây là đoạn văn được thay đổi màu bằng Internal CSS.
+    </p>
+
+    <h1 class="external">Phần 3 - External CSS</h1>
+    <p class="external">
+        Đây là đoạn văn được thay đổi màu bằng External CSS.
+    </p>
+
+</body>
+</html>
