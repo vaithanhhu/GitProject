@@ -1,0 +1,54 @@
+/* Element selector */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* ID selector */
+#title {
+    text-align: center;
+    color: blue;
+}
+
+/* Class selector */
+.description {
+    color: green;
+    font-size: 18px;
+}
+
+/* Grouping selector */
+h2, p {
+    margin-left: 20px;
+}
+
+/* Element selector */
+ul {
+    padding-left: 40px;
+}
+
+/* Định dạng từng sở thích */
+li:nth-child(1) {
+    color: red;
+}
+
+li:nth-child(2) {
+    color: blue;
+}
+
+li:nth-child(3) {
+    color: purple;
+}
+
+/* Định dạng nút */
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Pseudo-class :hover */
+button:hover {
+    background-color: green;
+}
