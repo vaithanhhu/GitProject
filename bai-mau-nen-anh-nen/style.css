@@ -1,0 +1,26 @@
+
+/* Màu nền cho toàn bộ trang web */
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Định dạng khối nội dung quan trọng */
+.important {
+    background-image: url("https://www.w3schools.com/css/img_tree.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 500px;
+    height: 250px;
+    margin: 30px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
