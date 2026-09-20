@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+
+    /* Tạo 3 cột có kích thước bằng nhau */
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 30px;
+    border: 1px solid #333;
+}
