@@ -1,0 +1,79 @@
+/* Định dạng chung cho toàn trang */
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Vùng chứa toàn bộ trang */
+#main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Phần đầu trang */
+#head {
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid #333;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Thanh liên kết đầu trang */
+#head-link {
+    height: 40px;
+    background-color: #eeeeee;
+    border: 1px solid #333;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/* Cột bên trái */
+#left {
+    width: 200px;
+    min-height: 400px;
+    background-color: #eeeeee;
+    float: left;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Vùng nội dung chính */
+#content {
+    width: 560px;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 5px;
+}
+
+/* Cột bên phải */
+#right {
+    width: 225px;
+    min-height: 400px;
+    background-color: #eeeeee;
+    float: right;
+    border: 1px solid #333;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Chân trang */
+#footer {
+    clear: both;
+    height: 60px;
+    background-color: #cccccc;
+    border: 1px solid #333;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 60px;
+}
