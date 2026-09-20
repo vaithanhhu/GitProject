@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 30px;
+    border: 1px solid #333;
+}
+
+/* Ví dụ auto */
+.item1 {
+    grid-column-start: auto;
+}
+
+/* Ví dụ column-line */
+.item2 {
+    grid-column-start: 2;
+}
+
+/* Ví dụ span n */
+.item3 {
+    grid-column-start: 1;
+}
