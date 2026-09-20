@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần đầu trang */
+header {
+    height: 120px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Thanh điều hướng */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Khu vực nội dung */
+.container {
+    width: 1000px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+/* Nội dung chính */
+.content {
+    width: 70%;
+    float: left;
+}
+
+/* Bài viết */
+article {
+    background-color: #eeeeee;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Nội dung bên cạnh */
+aside {
+    width: 28%;
+    float: right;
+    background-color: lightgreen;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 300px;
+}
+
+/* Chân trang */
+footer {
+    clear: both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
