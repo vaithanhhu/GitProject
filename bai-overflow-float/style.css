@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+    background-color: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    width: 48%;
+    float: right;
+    background-color: lightgreen;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overflow-box {
+    width: 300px;
+    height: 100px;
+    background-color: lightcoral;
+    padding: 10px;
+    overflow: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
