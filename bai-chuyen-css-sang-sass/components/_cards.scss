@@ -1,0 +1,16 @@
+﻿.card {
+    border: 1px solid $border-color;
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+
+    @include box-shadow;
+
+    h2 {
+        margin-top: 0;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+}
