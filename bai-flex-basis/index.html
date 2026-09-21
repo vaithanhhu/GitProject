@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basis</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 30px auto;
+            gap: 10px;
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 1px solid #333;
+            padding: 30px;
+        }
+
+        .item1 {
+            flex-basis: 150px;
+        }
+
+        .item2 {
+            flex-basis: 250px;
+        }
+
+        .item3 {
+            flex-basis: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS flex-basis</h1>
+
+    <div class="container">
+        <div class="item item1">Item 1 - 150px</div>
+        <div class="item item2">Item 2 - 250px</div>
+        <div class="item item3">Item 3 - 100px</div>
+    </div>
+
+</body>
+</html>
