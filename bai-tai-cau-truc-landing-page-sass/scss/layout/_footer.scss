@@ -1,0 +1,25 @@
+﻿.footer {
+    padding: 50px 0 20px;
+    background: $secondary-color;
+    color: $white-color;
+
+    h3 {
+        color: $white-color;
+        margin-bottom: 15px;
+    }
+}
+
+.footer-content {
+    @include container;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.copyright {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    text-align: center;
+}

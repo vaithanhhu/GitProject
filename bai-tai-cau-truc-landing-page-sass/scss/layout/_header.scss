@@ -1,0 +1,58 @@
+﻿.header {
+    background: $light-color;
+}
+
+.navbar {
+    @include container;
+
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        color: $primary-color;
+    }
+
+    .nav-list {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+
+        a {
+            color: $secondary-color;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.hero {
+    min-height: 450px;
+    background: $primary-color;
+    color: $white-color;
+
+    @include flex-center;
+    text-align: center;
+
+    .hero-content {
+        width: 90%;
+        max-width: 700px;
+
+        h1 {
+            color: $white-color;
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
+    }
+}

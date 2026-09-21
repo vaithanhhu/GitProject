@@ -1,0 +1,28 @@
+﻿.statistics {
+    padding: $section-padding 0;
+    background: $light-color;
+}
+
+.statistics-list {
+    @include container;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.statistic {
+    padding: 25px;
+
+    strong {
+        display: block;
+        font-size: 36px;
+        color: $primary-color;
+    }
+
+    span {
+        display: block;
+        margin-top: 5px;
+    }
+}

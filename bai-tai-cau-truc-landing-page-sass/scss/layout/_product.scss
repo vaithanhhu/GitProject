@@ -1,0 +1,41 @@
+﻿.products {
+    padding: $section-padding 0;
+    background: $white-color;
+
+    > h2 {
+        font-size: 32px;
+    }
+}
+
+.product-list {
+    @include container;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.product-card {
+    padding: 25px;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        background: $primary-color;
+        color: $white-color;
+
+        &:hover {
+            background: $secondary-color;
+        }
+    }
+}

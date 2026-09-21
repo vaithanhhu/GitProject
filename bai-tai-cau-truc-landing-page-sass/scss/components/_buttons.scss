@@ -1,0 +1,11 @@
+﻿.btn {
+    @include button;
+
+    background: $white-color;
+    color: $primary-color;
+
+    &:hover {
+        background: $secondary-color;
+        color: $white-color;
+    }
+}
