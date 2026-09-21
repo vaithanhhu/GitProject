@@ -1,0 +1,53 @@
+﻿// components/_blocks.scss
+
+.sidebar-content {
+    width: $sidebar-width;
+    padding-top: 15px;
+    @include white-column;
+
+    .blue-block {
+        @include blue-background;
+        @include no-border;
+        @include full-width;
+        height: 15%;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.empty-content {
+    @include white-column;
+}
+
+.right-content {
+    width: $sidebar-width;
+    padding-top: 15px;
+    @include white-column;
+
+    .large-blue-block {
+        @include blue-background;
+        @include no-border;
+        @include full-width;
+        height: 92%;
+    }
+}
+
+.grid-overlay {
+    opacity: $overlay-opacity;
+
+    .overlay-wrapper {
+        height: $overlay-height;
+    }
+
+    .overlay-column {
+        background-color: $white-color;
+        border-right: 1px solid $black-color;
+
+        &:first-child {
+            border-left: 1px solid $black-color;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+﻿// layout/_grid.scss
+
+.main-container {
+    position: relative;
+    width: auto;
+    left: 8px;
+    right: 10px;
+    opacity: $grid-opacity;
+}
+
+.grid-container {
+    width: 100%;
+}
+
+.grid-wrapper {
+    overflow: auto;
+    position: relative;
+}
+
+.grid-content {
+    @include grid-column;
+    background-color: $white-color;
+    border-right: 1px solid $border-color;
+}
+
+.header-wrapper {
+    height: $header-height;
+}
+
+.header-content {
+    @include full-width;
+    background: $purple-color;
+    @include transparent-right-border;
+}
+
+.content-wrapper {
+    height: $content-height;
+}
+
+.footer-wrapper {
+    height: $footer-height;
+}
+
+.footer-content {
+    @include full-width;
+    background: $footer-color;
+    @include transparent-right-border;
+}

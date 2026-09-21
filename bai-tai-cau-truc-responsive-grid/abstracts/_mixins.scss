@@ -1,0 +1,29 @@
+﻿// abstracts/_mixins.scss
+
+@mixin full-width {
+    width: 100%;
+}
+
+@mixin no-border {
+    border: none;
+}
+
+@mixin grid-column {
+    width: $column-width;
+    margin: 0;
+    float: left;
+    height: 100%;
+}
+
+@mixin blue-background {
+    background-color: $blue-color;
+}
+
+@mixin transparent-right-border {
+    border-right-color: transparent;
+}
+
+@mixin white-column {
+    background-color: $white-color;
+    border: none;
+}
