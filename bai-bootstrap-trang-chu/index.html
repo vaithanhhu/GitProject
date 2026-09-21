@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>MyWebsite - Trang chủ</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+
+        .carousel-item img {
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .welcome-section {
+            min-height: 180px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-home"></i>
+                MyWebsite
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Services
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO CAROUSEL -->
+    <div id="heroCarousel"
+         class="carousel slide"
+         data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img
+                    src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80"
+                    class="d-block w-100"
+                    alt="Slide 1">
+
+                <div class="carousel-caption">
+
+                    <h2>
+                        Chào mừng đến với MyWebsite
+                    </h2>
+
+                    <p>
+                        Khám phá những giải pháp hiện đại
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <img
+                    src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1600&q=80"
+                    class="d-block w-100"
+                    alt="Slide 2">
+
+                <div class="carousel-caption">
+
+                    <h2>
+                        Giải pháp chuyên nghiệp
+                    </h2>
+
+                    <p>
+                        Đơn giản - Hiệu quả - Hiện đại
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Nút Previous -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+            <span class="visually-hidden">
+                Previous
+            </span>
+
+        </button>
+
+
+        <!-- Nút Next -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#heroCarousel"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+            <span class="visually-hidden">
+                Next
+            </span>
+
+        </button>
+
+    </div>
+
+
+    <!-- FLEXBOX SECTION -->
+    <div class="d-flex justify-content-center align-items-center bg-light py-5 welcome-section">
+
+        <div class="text-center">
+
+            <h2>
+                Chào mừng đến với trang web của chúng tôi!
+            </h2>
+
+            <p class="text-muted">
+                Chúng tôi cung cấp những giải pháp công nghệ hiện đại.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- SERVICES -->
+    <section class="container py-5">
+
+        <h2 class="text-center mb-4">
+            Dịch vụ của chúng tôi
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-4">
+
+                <div class="card text-center h-100 p-4">
+
+                    <i class="fas fa-laptop fa-3x text-primary mb-3"></i>
+
+                    <h4>
+                        Thiết kế Website
+                    </h4>
+
+                    <p class="text-muted">
+                        Xây dựng website hiện đại và responsive.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4">
+
+                <div class="card text-center h-100 p-4">
+
+                    <i class="fas fa-mobile-screen fa-3x text-primary mb-3"></i>
+
+                    <h4>
+                        Ứng dụng Mobile
+                    </h4>
+
+                    <p class="text-muted">
+                        Phát triển ứng dụng hoạt động trên nhiều thiết bị.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-12 col-md-4">
+
+                <div class="card text-center h-100 p-4">
+
+                    <i class="fas fa-headset fa-3x text-primary mb-3"></i>
+
+                    <h4>
+                        Hỗ trợ khách hàng
+                    </h4>
+
+                    <p class="text-muted">
+                        Hỗ trợ và tư vấn nhanh chóng khi khách hàng cần.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT FORM -->
+    <section id="contact" class="bg-light py-5">
+
+        <form class="container">
+
+            <h2 class="text-center mb-4">
+                Liên hệ với chúng tôi
+            </h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-8">
+
+                    <!-- Tên -->
+                    <div class="mb-3">
+
+                        <label for="name" class="form-label">
+                            Tên của bạn
+                        </label>
+
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Nhập tên">
+
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="mb-3">
+
+                        <label for="email" class="form-label">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Nhập email">
+
+                    </div>
+
+
+                    <!-- Nội dung -->
+                    <div class="mb-3">
+
+                        <label for="message" class="form-label">
+                            Nội dung
+                        </label>
+
+                        <textarea
+                            class="form-control"
+                            id="message"
+                            rows="4"
+                            placeholder="Nhập nội dung">
+                        </textarea>
+
+                    </div>
+
+
+                    <!-- Submit -->
+                    <button type="submit"
+                            class="btn btn-primary">
+
+                        <i class="fas fa-paper-plane"></i>
+                        Gửi
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-3">
+
+        <p class="mb-0">
+            &copy; 2026 MyWebsite. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
