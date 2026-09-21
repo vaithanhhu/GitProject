@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.item {
+    background-color: lightblue;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.item1 {
+    grid-row: 1 / 3;
+    background-color: lightcoral;
+}
