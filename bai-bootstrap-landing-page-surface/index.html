@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Surface - Landing Page</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+
+        .hero {
+            min-height: 600px;
+            background-image:
+                linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+                url("https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1800&q=85");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 550px;
+        }
+
+        .product-image {
+            height: 260px;
+            object-fit: contain;
+        }
+
+        .feature-image {
+            height: 350px;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold fs-3" href="#">
+                Microsoft
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#mainNavbar">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav me-auto ms-lg-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Surface
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">
+                            Sản phẩm
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">
+                            Tính năng
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            Giới thiệu
+                        </a>
+                    </li>
+
+                </ul>
+
+                <a href="#products"
+                   class="btn btn-primary">
+                    Mua ngay
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero text-white">
+
+        <div class="container">
+
+            <div class="hero-content">
+
+                <span class="badge bg-primary mb-3">
+                    MICROSOFT SURFACE
+                </span>
+
+                <h1 class="display-3 fw-bold">
+                    Surface
+                </h1>
+
+                <h2 class="display-6 fw-semibold">
+                    Làm việc theo cách của bạn
+                </h2>
+
+                <p class="lead my-4">
+                    Thiết kế hiện đại, hiệu năng mạnh mẽ và khả năng
+                    linh hoạt cho công việc, học tập và sáng tạo.
+                </p>
+
+                <a href="#products"
+                   class="btn btn-primary btn-lg me-2">
+                    Khám phá Surface
+                </a>
+
+                <a href="#features"
+                   class="btn btn-light btn-lg">
+                    Tìm hiểu thêm
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GIỚI THIỆU -->
+    <section id="about" class="py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-12 col-lg-6">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=85"
+                        class="img-fluid rounded shadow"
+                        alt="Surface Laptop">
+
+                </div>
+
+                <div class="col-12 col-lg-6">
+
+                    <span class="text-primary fw-bold">
+                        SURFACE
+                    </span>
+
+                    <h2 class="display-5 fw-bold mt-2">
+                        Công nghệ dành cho cách bạn làm việc
+                    </h2>
+
+                    <p class="lead text-muted mt-3">
+                        Surface kết hợp thiết kế cao cấp với hiệu suất
+                        mạnh mẽ để đáp ứng nhiều nhu cầu sử dụng.
+                    </p>
+
+                    <p>
+                        Từ học tập, làm việc đến sáng tạo nội dung,
+                        thiết bị được thiết kế để bạn có thể chuyển
+                        đổi linh hoạt giữa nhiều cách sử dụng.
+                    </p>
+
+                    <a href="#products"
+                       class="btn btn-primary">
+                        Khám phá sản phẩm
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section id="features" class="bg-light py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="text-primary fw-bold">
+                    ĐIỂM NỔI BẬT
+                </span>
+
+                <h2 class="display-5 fw-bold mt-2">
+                    Được thiết kế để theo kịp bạn
+                </h2>
+
+                <p class="text-muted">
+                    Những trải nghiệm được xây dựng cho công việc
+                    và cuộc sống hiện đại.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Feature 1 -->
+                <div class="col-12 col-md-4">
+
+                    <div class="card border-0 h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=85"
+                            class="card-img-top feature-image"
+                            alt="Hiệu năng">
+
+                        <div class="card-body p-4">
+
+                            <h3 class="h4 fw-bold">
+                                Hiệu năng mạnh mẽ
+                            </h3>
+
+                            <p class="text-muted">
+                                Làm việc với nhiều ứng dụng và xử lý
+                                công việc hàng ngày một cách hiệu quả.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Feature 2 -->
+                <div class="col-12 col-md-4">
+
+                    <div class="card border-0 h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
+                            class="card-img-top feature-image"
+                            alt="Linh hoạt">
+
+                        <div class="card-body p-4">
+
+                            <h3 class="h4 fw-bold">
+                                Linh hoạt
+                            </h3>
+
+                            <p class="text-muted">
+                                Thiết kế gọn nhẹ giúp bạn dễ dàng mang
+                                theo và sử dụng ở nhiều không gian.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Feature 3 -->
+                <div class="col-12 col-md-4">
+
+                    <div class="card border-0 h-100 shadow-sm">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
+                            class="card-img-top feature-image"
+                            alt="Sáng tạo">
+
+                        <div class="card-body p-4">
+
+                            <h3 class="h4 fw-bold">
+                                Sáng tạo
+                            </h3>
+
+                            <p class="text-muted">
+                                Không gian làm việc phù hợp cho học tập,
+                                thiết kế và sáng tạo nội dung.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUCTS -->
+    <section id="products" class="py-5">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+
+                <span class="text-primary fw-bold">
+                    TÌM SURFACE CỦA BẠN
+                </span>
+
+                <h2 class="display-5 fw-bold mt-2">
+                    Chọn thiết bị phù hợp
+                </h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <!-- Surface Pro -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <span class="badge bg-primary mb-3">
+                                2-IN-1
+                            </span>
+
+                            <h3 class="fw-bold">
+                                Surface Pro
+                            </h3>
+
+                            <p class="text-muted">
+                                Hiệu năng của laptop,
+                                sự linh hoạt của tablet.
+                            </p>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=85"
+                                class="img-fluid product-image"
+                                alt="Surface Pro">
+
+                            <div class="mt-3">
+
+                                <a href="#"
+                                   class="btn btn-primary">
+                                    Tìm hiểu thêm
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Surface Laptop -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <span class="badge bg-dark mb-3">
+                                LAPTOP
+                            </span>
+
+                            <h3 class="fw-bold">
+                                Surface Laptop
+                            </h3>
+
+                            <p class="text-muted">
+                                Thiết kế tinh tế và hiệu suất
+                                cho công việc hàng ngày.
+                            </p>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85"
+                                class="img-fluid product-image"
+                                alt="Surface Laptop">
+
+                            <div class="mt-3">
+
+                                <a href="#"
+                                   class="btn btn-primary">
+                                    Tìm hiểu thêm
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Accessories -->
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-sm h-100">
+
+                        <div class="card-body text-center p-4">
+
+                            <span class="badge bg-secondary mb-3">
+                                ACCESSORIES
+                            </span>
+
+                            <h3 class="fw-bold">
+                                Phụ kiện Surface
+                            </h3>
+
+                            <p class="text-muted">
+                                Hoàn thiện trải nghiệm với những
+                                phụ kiện phù hợp.
+                            </p>
+
+                            <img
+                                src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=900&q=85"
+                                class="img-fluid product-image"
+                                alt="Phụ kiện">
+
+                            <div class="mt-3">
+
+                                <a href="#"
+                                   class="btn btn-primary">
+                                    Xem phụ kiện
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="bg-dark text-white py-5">
+
+        <div class="container text-center">
+
+            <h2 class="display-5 fw-bold">
+                Sẵn sàng khám phá Surface?
+            </h2>
+
+            <p class="lead text-white-50 my-4">
+                Tìm thiết bị phù hợp với công việc, học tập
+                và nhu cầu sáng tạo của bạn.
+            </p>
+
+            <a href="#products"
+               class="btn btn-primary btn-lg">
+                Khám phá ngay
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-white py-4">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 col-md-6">
+
+                    <h5>
+                        Microsoft Surface
+                    </h5>
+
+                    <p class="text-white-50 mb-0">
+                        Công nghệ hiện đại cho cuộc sống và công việc.
+                    </p>
+
+                </div>
+
+                <div class="col-12 col-md-6 text-md-end mt-3 mt-md-0">
+
+                    <a href="#"
+                       class="text-white text-decoration-none me-3">
+                        Chính sách
+                    </a>
+
+                    <a href="#"
+                       class="text-white text-decoration-none">
+                        Liên hệ
+                    </a>
+
+                </div>
+
+            </div>
+
+            <hr>
+
+            <p class="text-center text-white-50 mb-0">
+                &copy; 2026 Surface Landing Page
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
