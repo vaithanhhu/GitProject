@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CSS Grid</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto auto 1fr auto;
+            grid-template-areas:
+                "header header header"
+                "nav nav nav"
+                "sidebar content content"
+                "footer footer footer";
+            min-height: 100vh;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .nav {
+            grid-area: nav;
+            background-color: #555;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+
+        .nav a:hover {
+            color: yellow;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .content {
+            grid-area: content;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto auto 1fr auto;
+                grid-template-areas:
+                    "header"
+                    "nav"
+                    "sidebar"
+                    "content"
+                    "footer";
+            }
+
+            .nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1>Website Responsive</h1>
+        </header>
+
+        <nav class="nav">
+            <a href="#">Trang chủ</a>
+            <a href="#">Giới thiệu</a>
+            <a href="#">Dịch vụ</a>
+            <a href="#">Liên hệ</a>
+        </nav>
+
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>Tin tức</p>
+            <p>Quảng cáo</p>
+            <p>Liên kết</p>
+        </aside>
+
+        <main class="content">
+            <h2>Nội dung chính</h2>
+            <p>
+                Đây là khu vực nội dung chính của trang web.
+                Bố cục được xây dựng bằng CSS Grid và có khả năng
+                responsive trên cả máy tính và điện thoại.
+            </p>
+        </main>
+
+        <footer class="footer">
+            <p>Copyright © 2026 - Website Responsive</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
